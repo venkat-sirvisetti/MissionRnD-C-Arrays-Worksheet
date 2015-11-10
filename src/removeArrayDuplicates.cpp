@@ -25,7 +25,7 @@ void * removeArrayDuplicates(int *Arr, int len)
 			if (*(Arr + i) == *(Arr + j))
 			{
 				count++;
-				Arr++;
+				
 				continue;
 			}
 			*(Arr + j - count) = *(Arr + j);
